@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="app_logo"><img src="music_logo.png" alt="surya">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist"></div>
+        <h1 class="header-title">Play_Music without ads</h1>
+        <br/>
+        <div class="songitemcontainer">
+            <div class="songitem" id="audio">
+                <img src="song1.jpg" alt="1">
+                <span>WOH- Dino james</span>
+                <span class="songplaylist"><span class="time">04:37 <i id="0" class=" playsong fa-solid  fa-circle-play"></i> </span></span>
+            </div>
+            <div class="songitem">
+                <img src="o_mahi_song.jpg" alt="1">
+                <span>O Mahii</span>
+                <span class="songplaylist"><span class="time">04:37 <i  id="1" class=" playsong fa-solid fa-circle-play"></i> </span></span>
+            </div>
+            <div class="songitem">
+                <img src="kamsin-kali.jpg" alt="1">
+                <span>Kamsin-kali</span>
+                <span class="songplaylist"><span class="time">04:37 <i id='2' class="playsong fa-solid  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="Khaali-Botal.jpg" alt="1">
+                <span>Khaali-Botal</span>
+                <span class="songplaylist"><span class="time">04:37 <i id='3' class="playsong fa-solid  fa-circle-play"></i> </span></span>
+            </div>
+            <div class="songitem">
+                <img src="ranga-ranga-maidaan.jpg" alt="1">
+                <span>Ranga-Ranga-maidaan</span>
+                <span class="songplaylist"><span class="time">04:37 <i id='4' class="playsong fa-solid  fa-circle-play"></i> </span></span>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="bottom">
+    <input type="range" name=rang id="musicrange" min="0" max="100" value="0">
+    <div class="icon">
+        <i class="fa-solid fa-backward-step" id="backwordplay"></i>
+        <i class="fa-solid fa-circle-play" id="masterplay"></i>  
+        <i class="fa-solid fa-forward-step" id="forwordplay"></i>
+    </div>
+    <div class="songinfo" id="songinfo">
+        <img src="plying.gif"  width="40px" alt="" id="gif"><span id="mastersong">wow-dino james</span>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
